@@ -1,0 +1,31 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Secrets / local config
+.env
+.env.*
+GoogleService-Info.plist
+*.pem
+*.p12
+*.mobileprovision
+
+# Backups
+*.bak
+*.backup
+
+# Backend has its own repo
+backend/
+__pycache__/
+*.pyc
+*.db*
+*.textClipping
+env
